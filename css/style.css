@@ -1,0 +1,108 @@
+body {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+section {
+  background-color: #dfe2ef;
+}
+
+#wrapper {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 490px 490px;
+  grid-gap: 20px
+}
+
+h1 {
+  font-family: "Bungee Shade", "Arial", "Helvetica", cursive;
+  font-size: 120px;
+  color: #222;
+  background-color: white;
+  margin: 20px 20px 0;
+}
+
+h2 {
+  font-family: "Advent Pro", "Arial", "Helvetica", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-right: 10
+}
+
+nav {
+  background-color: black;
+}
+
+nav ul {
+  padding-left: 0;
+  font-family: "Advent Pro", "Arial", "Helvetica", sans-serif;
+  line-height: 1.5;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 30px;
+  margin-right: 20px;
+  margin-left: 20px
+}
+
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #cb5132;
+}
+
+a:hover {
+  box-shadow: 0 5px #7ab07f;
+  color: #7ab07f;
+}
+
+a:active {
+  color: rgb(255,255,255);
+}
+
+div,
+figure,
+figcaption {
+  text-align: left;
+  margin-left: 2;
+  margin-bottom: 100px;
+}
+
+figure,
+img {
+  display: auto;
+  margin-right: auto;
+  margin-left: auto;
+  length: 600px;
+  width: 960px;
+}
+
+h3,
+figure,
+figcaption {
+  display: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p,
+small,
+Source {
+  font-height: 1.5px;
+  color: #000000;
+}

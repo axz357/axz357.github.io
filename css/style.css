@@ -1,42 +1,18 @@
 body {
-  margin-left: 0;
-  margin-right: 0;
+  line-height: 1.5
+  font-family: ;
 }
 
 section {
-  background-color: #dfe2ef;
-}
-
-#wrapper {
-  max-width: 980px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-}
-
-main {
-  display: grid;
-  grid-template-columns: 490px 490px;
-  grid-gap: 20px
+  background-color: #ddd;
 }
 
 h1 {
   font-family: "Bungee Shade", "Arial", "Helvetica", cursive;
-  font-size: 120px;
+  font-size: 140px;
   color: #222;
   background-color: white;
   margin: 20px 20px 20px;
-}
-
-h2 {
-  font-family: "Advent Pro", "Arial", "Helvetica", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-h3 {
-  margin-right: 10
 }
 
 nav {
@@ -59,7 +35,7 @@ nav li {
 }
 
 a:link {
-  color: #ffffff;
+  color: #bd4529;
   text-decoration: none;
 }
 
@@ -76,34 +52,64 @@ a:active {
   color: rgb(255,255,255);
 }
 
-div,
-figure,
-figcaption {
-  text-align: left;
-  margin-left: 2;
-  margin-bottom: 100px;
+main,
+figure {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 figure,
 img {
-  display: auto;
-  margin-right: auto;
-  margin-left: auto;
-  length: 600px;
   width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-h3,
-figure,
-figcaption {
-  display: auto;
-  margin-left: auto;
-  margin-right: auto;
+h2 {
+  font-family: 'Advent Pro', sans-serif;
+  background-color: #d76545;
+  max-width: 960px;
+  font-height: 1;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Advent Pro', sans-serif;
+}
+
+section {
+  padding: 20px;
+}
+
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  grid-template-areas:
+  "introducion     introduction        introduction"
+  "geography       people-and-society  transportation"
+  "footer          footer              footer";
+  grid-gap: 20px;
+
+  grid-area: introdction;
+  grid-area: geography;
+  grid-area: people-and-society;
+  grid-area: transportation;
+}
+
+footer {
+  grid-area: footer;
 }
 
 p,
-small,
 Source {
   font-height: 1.5px;
   color: #000000;
+  background-color: #ddd;
 }

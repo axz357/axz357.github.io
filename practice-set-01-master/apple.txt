@@ -1,0 +1,53 @@
+Apple Macintosh 128K
+
+The Macintosh 128K, originally released as the Apple Macintosh, is the original Apple Macintosh personal computer. Its beige case consisted of a 9in (23cm) CRT monitor and came with a keyboard and mouse. A handle built into the top of the case made it easier for the computer to be lifted and carried.
+
+It had an initial selling price of $2,495 (equivalent to $6,140 in 2019).
+
+The Macintosh was introduced by the now-famous $370,000 (equivalent to $910,541 in 2019) television commercial by Ridley Scott, "1984", that aired on CBS during the third quarter of Super Bowl XVIII on January 22, 1984.
+
+Sales of the Macintosh were strong from its initial release on January 24, 1984, and reached 70,000 units on May 3, 1984.
+
+
+Processor and Memory
+
+The heart of the computer was a Motorola 68000 microprocessor running at 7.8336 MHz, connected to 128 KB RAM shared by the processor and the display controller. The boot procedure and some operating system routines were contained in an additional 64 KB ROM chip. Apple did not offer RAM upgrades.
+
+
+Storage
+
+The Macintosh contained a single 400 KB, single-sided ​3 1/2-inch floppy disk drive, dedicating no space to other internal mechanical storage. The Mac OS was disk-based from the beginning, as RAM had to be conserved, but this "Startup Disk" could still be temporarily ejected. (Ejecting the root filesystem remained an unusual feature of the classic Mac OS until System 7.) One floppy disk was sufficient to store the System Software, an application and the data files created with the application.
+
+
+Software
+
+Operating System
+
+The Macintosh shipped with the very first System and Finder application, known to the public as "System 1.0" (formally known as System 0.97 and Finder 1.0).
+
+Applications
+
+The applications MacPaint and MacWrite were bundled with the Mac. Other programs available included MacProject, MacTerminal and Microsoft Word. Programming languages available at the time included MacBASIC, MacPascal and the Macintosh 68000 Development System.
+
+
+Dimensions
+
+- Height: 13.6in (35cm)
+- Width: 9.6in (24cm)
+- Depth: 10.9in (28cm)
+- Mass: 16.5lbs (7.5kg)
+
+
+Future Models
+
+- Macintosh 512K (Sept. 1984)
+- Macintosh Plus (Jan. 1986)
+- Macintosh 512Ke (April 1986)
+- Macintosh SE (March 1987)
+
+
+Source: Wikipedia
+
+
+[Image Caption for macintosh.jpg]
+An Apple Macintosh 128K running Finder 4.1. (Photo by: allaboutapple.com, CC BY-SA)

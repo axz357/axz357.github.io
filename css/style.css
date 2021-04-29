@@ -87,29 +87,6 @@ section {
   margin: 0 auto;
 }
 
-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-
-  grid-template-areas:
-  "introducion     introduction        introduction"
-  "geography       people-and-society  transportation"
-  "footer          footer              footer";
-  grid-gap: 20px;
-
-  grid-area: introdction;
-  grid-area: geography;
-  grid-area: people-and-society;
-  grid-area: transportation;
-}
-
 footer {
   grid-area: footer;
-}
-
-p,
-Source {
-  font-height: 1.5px;
-  color: #000000;
-  background-color: #ddd;
 }

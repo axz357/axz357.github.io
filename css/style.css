@@ -1,22 +1,87 @@
 body {
-  line-height: 1.5
-  font-family: ;
+  background-image: url("../imgchrome.png");
+  max-width: 100%;
+  background-repeat: repeat;
+  background-color: #e9a9fa;
+  background-attachment: fixed;
 }
 
 section {
-  background-color: #ddd;
+  background-color: #fad7dd;
+  padding: 20px;
+}
+
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+  "header  header"
+  "nav     main"
+  "footer  footer";
+  grid-gap: 10px;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+  margin-left: 20px;
+  background-color: black;
+}
+
+main {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer {
+  background-color: #fad7dd;
+  grid-area: footer;
+  padding-left: 20px;
+  width: 900px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+main,
+figure,
+img {
+  width: 500px;
+  margin-right: 1px;
+}
+
+main,
+section {
+  width: 573px;
+}
+
+media,
+figure {
+  width: 500px;
+  margin-left: 0px;
+}
+
+tmh,
+img {
+  margin-left: 40px;
+  width: 500px;
 }
 
 h1 {
   font-family: "Bungee Shade", "Arial", "Helvetica", cursive;
-  font-size: 140px;
+  font-size: 60px;
   color: #222;
   background-color: white;
-  margin: 20px 20px 20px;
-}
-
-nav {
-  background-color: black;
+  margin: 30px 20px  0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
 }
 
 nav ul {
@@ -28,10 +93,8 @@ nav ul {
 }
 
 nav li {
-  display: inline-block;
   font-size: 30px;
-  margin-right: 20px;
-  margin-left: 20px
+  margin: 20px 20px 20px;
 }
 
 a:link {
@@ -45,48 +108,47 @@ a:visited {
 
 a:hover {
   box-shadow: 0 5px #7ab07f;
-  color: #7ab07f;
+  color: #b6ded4;
 }
 
 a:active {
   color: rgb(255,255,255);
 }
 
-main,
-figure {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-figure,
-img {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 h2 {
   font-family: 'Advent Pro', sans-serif;
-  background-color: #d76545;
-  max-width: 960px;
-  font-height: 1;
-  margin: 0;
+  background-color: #b6ded4;
+  max-width: 920px;
 }
 
 h3 {
   font-family: 'Advent Pro', sans-serif;
 }
 
-section {
-  padding: 20px;
+main,
+umtv {
+  grid-area: main;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "television-station  television-station"
+  "unimiami            spotsdesk";
+
+
+}
+#television-station {
+
 }
 
-#wrapper {
-  max-width: 960px;
-  margin: 0 auto;
+#unimiami {
+  grid-area: unimiami;
 }
 
-footer {
-  grid-area: footer;
+#sportsdesk {
+  grid-area: sportsdesk;
+}
+
+#skills {
+  grid-area: skills;
 }
